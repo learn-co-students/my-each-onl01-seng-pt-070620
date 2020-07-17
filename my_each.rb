@@ -1,11 +1,10 @@
-def my_each
-  index = 0
-  while index < self.count
-  yield(self[index])
-   index += 1
+def my_each(array)
+  i = 0
+  while i < array.length
+  yield(array[+1])
+  i = i + 1
  end
- end 
+ array
+end 
+
  
- def my_each
-   yield()
- end 
